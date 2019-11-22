@@ -1,0 +1,17 @@
+<?php
+
+
+ function report_menu() {
+    $items = array();
+     $items['report-testing'] = array(
+        'title' => t('Testing'),
+        'page callback' => 'tpvision_testing_code',
+        'access arguments' => array('access content'),
+        // 'type' => MENU_CALLBACK,
+       );
+     return $items;
+} 
+
+function tpvision_testing_code(){
+    print "testing the module";
+}
