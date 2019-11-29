@@ -249,7 +249,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'test_project',
+      'database' => 'test_server',
       'username' => 'root',
       'password' => 'root',
       'host' => 'localhost',
@@ -290,7 +290,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = 'I-Yqy8VYk_C4LycMmohErbv8JjOP1scApy12qUkmW0E';
+$drupal_hash_salt = 'oaWz3bQXfMwQNX3ko_srSxVHraSesdBoU6GAkPaT180';
 
 /**
  * Base URL (optional).
